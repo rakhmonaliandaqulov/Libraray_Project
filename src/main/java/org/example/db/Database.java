@@ -31,6 +31,7 @@ public class Database {
                  "id serial primary key," +
                  "name varchar(15) not null," +
                  "surname varchar(15) not null," +
+                 "phone varchar(9) not null," +
                  "birth_date date not null," +
                  "visible boolean default true)";
 
